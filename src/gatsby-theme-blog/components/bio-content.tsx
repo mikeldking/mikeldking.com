@@ -3,9 +3,9 @@ import { Styled } from "theme-ui"
 
 export default () => (
   <Fragment>
-    Words by{" "}
-    <Styled.a href="http://twitter.com/mikeldking">Mikyo King</Styled.a>.
+    👋 I'm <Styled.a href="http://twitter.com/mikeldking">Mikel King</Styled.a>.
+    I go by Mikyo.
     <br />
-    My thoughts as a software engineer
+    This is a blog about my carrear as a software engineer
   </Fragment>
 )

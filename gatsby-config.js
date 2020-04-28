@@ -7,19 +7,14 @@ module.exports = {
   /* Your site config here */
   plugins: [
     `gatsby-plugin-typescript`,
-    {
-      resolve: `gatsby-theme-blog`,
-      options: {
-        // basePath defaults to `/`
-        basePath: `/`,
-      },
-    },
+    `gatsby-theme-blog`,
+    `gatsby-plugin-theme-ui`,
   ],
   siteMetadata: {
     // Used for the site title and SEO
     title: `Adventures in code and climbing`,
     // Used to provide alt text for your avatar
-    author: `Mikyo King`,
+    author: `Mikel King`,
     // Used for SEO
     description: `A site where Mikyo explains his thoughts`,
     // Used for social links in the root footer
@@ -31,6 +26,10 @@ module.exports = {
       {
         name: `GitHub`,
         url: `https://github.com/mikeldking`,
+      },
+      {
+        name: `LinkedIn`,
+        url: `https://www.linkedin.com/in/mikeldking/`,
       },
     ],
   },

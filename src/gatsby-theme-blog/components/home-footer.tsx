@@ -9,7 +9,7 @@ const Footer = ({ socialLinks }) => (
     })}
   >
     © {new Date().getFullYear()}
-    {` `}
+    {` `}&bull;{` `}
     {socialLinks
       ? socialLinks.map((platform, i, arr) => (
           <Fragment key={platform.url}>

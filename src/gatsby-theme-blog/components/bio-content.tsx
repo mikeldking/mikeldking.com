@@ -6,6 +6,6 @@ export default () => (
     👋 I'm <Styled.a href="http://twitter.com/mikeldking">Mikel King</Styled.a>.
     I go by Mikyo.
     <br />
-    This is a blog about my carrear as a software engineer
+    This is a blog about 👨🏻‍💻 and 🧗🏻‍♂️
   </Fragment>
 )

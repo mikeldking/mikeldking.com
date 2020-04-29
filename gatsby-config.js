@@ -5,11 +5,7 @@
  */
 module.exports = {
   /* Your site config here */
-  plugins: [
-    `gatsby-plugin-typescript`,
-    `gatsby-theme-blog`,
-    `gatsby-plugin-theme-ui`,
-  ],
+  plugins: [`gatsby-plugin-typescript`, `gatsby-theme-blog`],
   siteMetadata: {
     // Used for the site title and SEO
     title: `Adventures in code and climbing`,

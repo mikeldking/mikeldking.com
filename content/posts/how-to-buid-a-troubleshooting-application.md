@@ -4,6 +4,8 @@ date: "2015-03-24"
 excerpt: How to build an application that is simple, intuitive, and powerful
 ---
 
+![Power Intuitive Simple](../assets/troubleshooting-workflow/PowerIntuitiveSimple.png)
+
 As most designers and engineers know, creating a product that is simple, intuitive, and powerful is the holy grail of the tech industry. Building a product that melds these 3 crucial elements is not easy - it takes a lot of iterations and interactions with users to nail down an elegant design. It is thus no surprise that user experience and design is getting an increasing amount of emphasis across the industry.
 Troubleshooting applications are particularly hard to design due to the immense scale of the problem domains that they deal with (some examples of these problem domains include networking and security). In troubleshooting, the end goal of a user is quite simple; a user either wants to figure out the root cause of a problem or to figure out that the problem is not their responsibility. But problems many times have the following complexities:
 
@@ -42,6 +44,8 @@ Another criteria that may indicate that a feature should be a tool is if it is i
 ## 5. Design converging workflows
 
 Your product may have many different types of users; Some may be more tech savvy and some may be new to their domain. While personas can be very useful when trying to design different pages and features, it is worth following a simple pattern that all users can relate to. In the case of troubleshooting, there are two main scenarios you need to cover: The user wants to investigate a particular domain or the user does not know that a problem exists and needs to discover emerging issues. I many times call these two different workflows or app states “Active Troubleshooting” and “Passive Monitoring.” The key point here is that the Passive Monitoring workflows should always flow into an Active Troubleshooting workflows. Passive Monitoring pages usually take the form of dashboards or pages that highlight emergent or problematic behaviors. These pages should auto-update at a regular interval and should use visualizations and components that make issues bubble to the top (Think sorted lists and tops charts) These visualizations and components should also have interactions that flow into a particular active troubleshooting workflow. For example, in a network troubleshooting application, if a user is passively monitoring the status of a group of servers, the application should have a built in interaction to enable the user to dive into a particular server’s active troubleshooting workflow when a problem becomes apparent.
+
+![Converging Workflows](../assets/troubleshooting-workflow/ConvergingWorkflows.png)
 
 ## Final thought
 

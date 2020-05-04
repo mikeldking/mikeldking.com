@@ -38,7 +38,8 @@ export default function Resume() {
         <dt className={styles.dt}>Education</dt>
         <dd className={styles.dd}>
           <h2 className={styles.h2}>
-            University of Southern California <span>B.E. - 2008</span>
+            University of Southern California{" "}
+            <span>Summa Cum Laude - May 2008</span>
           </h2>
           <p className={styles.p}>
             <strong>Major:</strong> Computer Engineering and Computer Science
@@ -183,9 +184,7 @@ export default function Resume() {
             Unavco Inc. <span>System Administrator - Summer 2006</span>
           </h2>
         </dd>
-
         <dd className={styles.clear + " " + styles.dd}></dd>
-
         <dt className={styles.dt}>Leadership</dt>
         <dd className={styles.dd}>
           <h2 className={styles.h2}>
@@ -222,6 +221,7 @@ export default function Resume() {
             </li>
           </ul>
         </dd>
+        <dd className={styles.clear + " " + styles.dd}></dd>
         <dt className={styles.dt}>Hobbies</dt>
         <dd className={styles.dd}>
           I enjoy rock climbing, snowboarding, biking, surfing woodwork, and

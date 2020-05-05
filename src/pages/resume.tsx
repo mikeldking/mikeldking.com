@@ -132,8 +132,8 @@ export default function Resume() {
           <ul className={styles.ul}>
             <li>
               Full-stack web application development using React, Redux/Mobx,
-              Express/Koa, THREE.js, Web Assembly, WebGL/GLSL, Elasticsearch,
-              and Docker
+              Express/Koa, Kafka, THREE.js, Web Assembly, WebGL/GLSL,
+              Elasticsearch, and Docker
             </li>
             <li>
               Worked closely alongside operations, human interface design, and

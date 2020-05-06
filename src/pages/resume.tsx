@@ -66,7 +66,7 @@ export default function Resume() {
           </p>
           <h2 className={styles.h2}>Computer skills</h2>
           <p className={styles.p}>
-            Comfotable desgining things with Figma, Adobe Creative Suite, and
+            Comfortable designing things with Figma, Adobe Creative Suite, and
             Sketch
           </p>
         </dd>
@@ -90,14 +90,14 @@ export default function Resume() {
               working on the UI and it's corresponding backends.
             </li>
             <li>
-              Rearchitected the application to support collaborative paradigms
+              Re-architected the application to support collaborative paradigms
               like teams and projects with proper access control. Added support
               for user and team slugs to enable intuitive URLs and navigation.
             </li>
             <li>
-              Overhauled Engine ML's authenticaion and authorization. Refactored
-              the application to use OAuth 2.0 and secured Engine ML's CLI using
-              JWTs with corresponding permissions.
+              Overhauled Engine ML's authentication and authorization.
+              Refactored the application to use OAuth 2.0 and secured Engine
+              ML's CLI using JWTs with corresponding permissions.
             </li>
             <li>
               Migrated all of Engine ML's APIs to GraphQL with proper
@@ -111,7 +111,7 @@ export default function Resume() {
             <li>
               Crafted various custom components to support various use-cases.
               These included a live log viewer with ANSI character highlighting,
-              a file brower, top-level application search with hot-key support,
+              a file browser, top-level application search with hot-key support,
               code snippets with syntax highlighting, and many more.
             </li>
             <li>

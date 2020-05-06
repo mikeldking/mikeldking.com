@@ -81,7 +81,7 @@ export default function Resume() {
             <li>
               Creating next-generation distributed deep learning infrastructure
               and services to support ML engineers. Engine ML empowers any ML
-              team to be able to rapidly build state of th art models by
+              team to be able to rapidly build state of the art models by
               leveraging GPU-enabled computation.
             </li>
             <li>

@@ -101,8 +101,8 @@ export default function Resume() {
             </li>
             <li>
               Migrated all of Engine ML's APIs to GraphQL with proper
-              authentication and authorization. Migrated the UI from being REST
-              based to GraphQL.
+              authentication and authorization. Migrated the UI from using REST
+              to GraphQL.
             </li>
             <li>
               Converted the UI to be fully live-updating with the careful use of
@@ -116,13 +116,14 @@ export default function Resume() {
             </li>
             <li>
               <strong>Technologies:</strong> Kubernetes, Terraform, GraphQL,
-              PostGres, Elasticsearch, Prometheus, Nginx, Git
+              PostGres, Elasticsearch, Prometheus, Nginx, Git, State Machines
             </li>
             <li>
-              <strong>Languages:</strong> Typescript, Haskell, Kotlin, Python
+              <strong>Languages:</strong> Typescript, Haskell, Kotlin, some
+              Python
             </li>
             <li>
-              <strong>Libraries:</strong> React, Jest, Apollo, Koa
+              <strong>Libraries:</strong> React, Jest, Apollo, Koa, Puppeteer
             </li>
           </ul>
 
@@ -138,6 +139,10 @@ export default function Resume() {
             <li>
               Worked closely alongside operations, human interface design, and
               iOS engineers to ship and maintain iOS features.
+            </li>
+            <li>
+              <strong>Languages:</strong> Javascript with Flow, some Swift, some
+              Scala
             </li>
           </ul>
           <h2 className={styles.h2}>

@@ -77,17 +77,25 @@ export default function Resume() {
           <h2 className={styles.h2}>
             Engine ML <span>Software Engineer - 2019 to Now</span>
           </h2>
+          <p>
+            Creating next-generation distributed deep learning infrastructure
+            and services to support ML engineers. Engine ML empowers any ML team
+            to be able to rapidly build state of the art models by leveraging
+            GPU-enabled computation.
+          </p>
+          <p>
+            <strong>Technologies:</strong> Kubernetes, Terraform, GraphQL,
+            PostGres, Elasticsearch, Prometheus, Nginx, Git, State Machines{" "}
+            <br />
+            <strong>Languages:</strong> Typescript, Haskell, Kotlin, some Python{" "}
+            <br />
+            <strong>Libraries:</strong> React, Jest, Apollo, Koa, Puppeteer
+          </p>
           <ul className={styles.ul}>
-            <li>
-              Creating next-generation distributed deep learning infrastructure
-              and services to support ML engineers. Engine ML empowers any ML
-              team to be able to rapidly build state of the art models by
-              leveraging GPU-enabled computation.
-            </li>
             <li>
               Built Engine ML's UI and application backend from the ground up
               using modern best practices. The sole engineer designing and
-              working on the UI and it's corresponding backends.
+              working on the UI and its corresponding backends.
             </li>
             <li>
               Re-architected the application to support collaborative paradigms
@@ -114,49 +122,34 @@ export default function Resume() {
               a file browser, top-level application search with hot-key support,
               code snippets with syntax highlighting, and many more.
             </li>
-            <li>
-              <strong>Technologies:</strong> Kubernetes, Terraform, GraphQL,
-              PostGres, Elasticsearch, Prometheus, Nginx, Git, State Machines
-            </li>
-            <li>
-              <strong>Languages:</strong> Typescript, Haskell, Kotlin, some
-              Python
-            </li>
-            <li>
-              <strong>Libraries:</strong> React, Jest, Apollo, Koa, Puppeteer
-            </li>
           </ul>
 
           <h2 className={styles.h2}>
             Apple Inc. <span>Sr. Software Engineer - 2015 to 2019</span>
           </h2>
-          <ul className={styles.ul}>
-            <li>
-              Full-stack web application development using React, Redux/Mobx,
-              Express/Koa, Kafka, THREE.js, Web Assembly, WebGL/GLSL,
-              Elasticsearch, and Docker
-            </li>
-            <li>
-              Worked closely alongside operations, human interface design, and
-              iOS engineers to ship and maintain iOS features.
-            </li>
-            <li>
-              <strong>Languages:</strong> Javascript with Flow, some Swift, some
-              Scala
-            </li>
-          </ul>
+          <p>
+            Full-stack web application development using React, Redux/Mobx,
+            Express/Koa, Kafka, THREE.js, Web Assembly, WebGL/GLSL,
+            Elasticsearch, and Docker .Worked closely alongside operations,
+            human interface design, and iOS engineers to ship and maintain iOS
+            features.
+          </p>
+          <p>
+            <strong>Languages:</strong> Javascript with Flow, some Swift, some
+            Scala
+          </p>
           <h2 className={styles.h2}>
             Fluke Networks <span>Software Engineer - 2008 to 2015</span>
           </h2>
+          <p>
+            UI engineer in a small but highly versatile engineering team that
+            worked on Visual TruView, an industry leading application and
+            network performance monitoring tool. After joining the team, the
+            product was transformed from being a struggling business venture for
+            Fluke Networks into a highly successful, award-winning product that
+            was considered a cornerstone of Fluke Networks’ success.
+          </p>
           <ul className={styles.ul}>
-            <li>
-              UI engineer in a small but highly versatile engineering team that
-              worked on Visual TruView, an industry leading application and
-              network performance monitoring tool. After joining the team, the
-              product was transformed from being a struggling business venture
-              for Fluke Networks into a highly successful, award-winning product
-              that was considered a cornerstone of Fluke Networks’ success.
-            </li>
             <li>
               Designed and programmed various features and user experience
               improvements that resulted in an industry-leading UI according to

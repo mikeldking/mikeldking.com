@@ -88,9 +88,9 @@ export default function Resume() {
             PostGres, Elasticsearch, Prometheus, Nginx, Git, Redis, State
             Machines
             <br />
-            <strong>Languages:</strong> Typescript, Haskell, Kotlin, some Python
+            <strong>Languages</strong> Typescript, Haskell, Kotlin, some Python
             <br />
-            <strong>Libraries:</strong> React, Jest, Apollo, Koa, Puppeteer
+            <strong>Libraries</strong> React, Jest, Apollo, Koa, Puppeteer
           </p>
           <ul className={styles.ul}>
             <li>
@@ -131,12 +131,12 @@ export default function Resume() {
           <p>
             Full-stack web application developer using React, Redux/Mobx,
             Express/Koa, Kafka, THREE.js, Web Assembly, WebGL/GLSL,
-            Elasticsearch, and Docker .Worked closely alongside operations,
+            Elasticsearch, and Docker. Worked closely alongside operations,
             human interface design, and iOS engineers to ship and maintain iOS
             features.
           </p>
           <p>
-            <strong>Languages:</strong> Javascript with Flow
+            <strong>Languages</strong> Javascript with Flow
           </p>
           <h2 className={styles.h2}>
             Fluke Networks <span>Software Engineer - 2008 to 2015</span>

@@ -85,9 +85,10 @@ export default function Resume() {
           </p>
           <p>
             <strong>Technologies:</strong> Kubernetes, Terraform, GraphQL,
-            PostGres, Elasticsearch, Prometheus, Nginx, Git, State Machines{" "}
+            PostGres, Elasticsearch, Prometheus, Nginx, Git, Redis, State
+            Machines
             <br />
-            <strong>Languages:</strong> Typescript, Haskell, Kotlin, some Python{" "}
+            <strong>Languages:</strong> Typescript, Haskell, Kotlin, some Python
             <br />
             <strong>Libraries:</strong> React, Jest, Apollo, Koa, Puppeteer
           </p>
@@ -128,15 +129,14 @@ export default function Resume() {
             Apple Inc. <span>Sr. Software Engineer - 2015 to 2019</span>
           </h2>
           <p>
-            Full-stack web application development using React, Redux/Mobx,
+            Full-stack web application developer using React, Redux/Mobx,
             Express/Koa, Kafka, THREE.js, Web Assembly, WebGL/GLSL,
             Elasticsearch, and Docker .Worked closely alongside operations,
             human interface design, and iOS engineers to ship and maintain iOS
             features.
           </p>
           <p>
-            <strong>Languages:</strong> Javascript with Flow, some Swift, some
-            Scala
+            <strong>Languages:</strong> Javascript with Flow
           </p>
           <h2 className={styles.h2}>
             Fluke Networks <span>Software Engineer - 2008 to 2015</span>
@@ -188,36 +188,30 @@ export default function Resume() {
           <h2 className={styles.h2}>
             ACM President <span>2006 to 2008</span>
           </h2>
-          <ul className={styles.ul}>
-            <li>
-              Coordinated the logistics for a code-a-thon for handicapped
-              computer users and organized engineering events, lectures, and
-              tutoring sessions
-            </li>
-          </ul>
+          <p>
+            Coordinated the logistics for a code-a-thon for handicapped computer
+            users and organized engineering events, lectures, and tutoring
+            sessions
+          </p>
         </dd>
         <dd className={styles.dd}>
           <h2 className={styles.h2}>
             Odell Technology Award <span>2012</span>
           </h2>
-          <ul>
-            <li>
-              for demonstrating a passion for technology and having an
-              innovative spirit
-            </li>
-          </ul>
+          <p>
+            for demonstrating a passion for technology and having an innovative
+            spirit
+          </p>
         </dd>
         <dd className={styles.dd}>
           <h2 className={styles.h2}>College Honors</h2>
-          <ul>
-            <li>
-              Upsilon Phi Epsilon (Computer Science Honors Society), Tau Beta Pi
-              Delta (Engineering Honors Society), Epsilon Kappa Nu (Electrical
-              and Computer Engineering Honors Society), Phi Kappa Phi (Nation's
-              oldest, largest, and most selective all-discipline honor society),
-              Alpha Lambda Delta (National Academic Honors Society for freshman)
-            </li>
-          </ul>
+          <p>
+            Upsilon Phi Epsilon (Computer Science Honors Society), Tau Beta Pi
+            Delta (Engineering Honors Society), Epsilon Kappa Nu (Electrical and
+            Computer Engineering Honors Society), Phi Kappa Phi (Nation's
+            oldest, largest, and most selective all-discipline honor society),
+            Alpha Lambda Delta (National Academic Honors Society for freshman)
+          </p>
         </dd>
         <dd className={styles.clear + " " + styles.dd}></dd>
         <dt className={styles.dt}>Hobbies</dt>

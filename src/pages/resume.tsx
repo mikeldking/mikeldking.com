@@ -5,8 +5,8 @@ import avatar from "../../content/assets/avatar.jpeg"
 export default function Resume() {
   return (
     <div className={styles.pagewrap + " " + styles.container}>
-      <img src={avatar} alt="Photo of Cthulu" className={styles.pic} />
-      <div id="contact-info" className="vcard">
+      <img src={avatar} alt="Photo of Mikyo King" className={styles.pic} />
+      <div id="contact-info">
         <h1 className={styles.h1}>Mikel King</h1>
 
         <p className={styles.p}>
@@ -90,7 +90,8 @@ export default function Resume() {
             <br />
             <strong>Languages</strong> Typescript, Haskell, Kotlin, some Python
             <br />
-            <strong>Libraries</strong> React, Jest, Apollo, Koa, Puppeteer
+            <strong>Libraries</strong> React, Jest, Apollo, Koa, Lerna,
+            Puppeteer
           </p>
           <ul className={styles.ul}>
             <li>

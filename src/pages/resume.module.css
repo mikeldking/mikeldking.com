@@ -3,101 +3,81 @@
   line-height: 24px;
 }
 
-.clear {
-  clear: both;
+.page {
+  margin: auto;
+  margin-top: 24px;
+  margin-bottom: 24px;
+  display: grid;
+  grid-template-columns: 40px 200px auto 40px;
+  grid-template-rows: 40px auto 40px;
+  width: 21cm;
+  height: 29.7cm;
+  box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.4);
 }
 
-.pagewrap {
-  width: 800px;
-  margin: 40px auto 60px;
+.page h3 {
+  font-family: HK ro -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
-.pic {
-  float: right;
-  margin: 15px 15px 0 0;
-  width: 220px;
-  border: 10px solid white;
-  box-shadow: 1px 5px 5px rgba(0, 0, 0, 0.2);
-  transform: rotateY(-5deg) rotateZ(-7deg);
-}
-
-.h1 {
-  margin: 0 0 16px 0;
-  padding: 0 0 16px 0;
-  font-size: 42px;
-  font-weight: bold;
-  letter-spacing: -2px;
-  border-bottom: 1px solid #999;
-}
-.h2 {
-  font-size: 20px;
-  margin: 0 0 6px 0;
+.leftSide {
+  background-color: black;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 4;
   position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
 }
-.h2 span {
+
+.rightSide {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  margin-left: 40px;
+}
+
+.rightSide dd {
+  margin-inline-start: 0;
+}
+
+.header {
   position: absolute;
-  bottom: 0;
-  right: 0;
-  font-style: italic;
-  font-family: Georgia, Serif;
-  font-size: 16px;
-  color: #999;
-  font-weight: normal;
-}
-.p {
-  margin: 0 0 16px 0;
-}
-
-.link {
-  color: #999;
-  text-decoration: none;
-  border-bottom: 1px dotted #999;
-}
-.link:hover {
-  border-bottom-style: solid;
-  color: black;
-}
-
-.ul {
-  margin: 16px 0 32px 0px;
-  padding-inline-start: 25px;
-}
-
-.ul > li:not(:last-of-type) {
-  margin-bottom: 10px;
-}
-
-.objective {
-  width: 500px;
-  float: left;
-}
-
-.objective p {
-  font-family: Georgia, Serif;
-  font-style: italic;
-  color: #888;
-}
-
-.dt {
-  font-style: italic;
-  font-weight: bold;
-  font-size: 18px;
+  left: 0;
+  top: 80px;
+  transform: rotate(-90deg);
+  transform-origin: right right;
   text-align: right;
-  padding: 0 26px 0 0;
-  width: 120px;
-  float: left;
-  height: 100px;
-  /* border-right: 1px solid #999; */
 }
-.dd {
-  margin: 0;
-  padding: 0;
-  width: 630px;
+
+.dd h3 {
+  font-size: 12px;
+}
+
+.dd h3 span {
+  font-weight: lighter;
+  color: gray;
   float: right;
 }
 
-.dd.clear {
-  float: none;
-  margin: 0;
-  height: 15px;
+.header h1 {
+  font-size: 32px;
+  color: white;
+}
+
+.header h2 {
+  color: #aaaaaa;
+  font-weight: lighter;
+}
+
+.contact {
+  color: white;
+}
+
+.aboutMe {
+  font-size: 14px;
+  line-height: 16px;
 }

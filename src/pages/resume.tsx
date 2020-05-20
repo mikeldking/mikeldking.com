@@ -131,20 +131,20 @@ export default function Resume() {
           <h2 className={styles.h2}>
             Apple Inc. <span>Sr. Software Engineer - 2015 to 2019</span>
           </h2>
-          <p>
+          <p className={styles.p}>
             Full-stack web application developer using React, Redux/Mobx,
             Express/Koa, Kafka, THREE.js, Web Assembly, WebGL/GLSL,
             Elasticsearch, and Docker. Worked closely alongside operations,
             human interface design, and iOS engineers to ship and maintain iOS
             features.
           </p>
-          <p>
+          <p className={styles.p}>
             <strong>Languages</strong> Javascript with Flow
           </p>
           <h2 className={styles.h2}>
             Fluke Networks <span>Software Engineer - 2008 to 2015</span>
           </h2>
-          <p>
+          <p className={styles.p}>
             UI engineer in a small but highly versatile engineering team that
             worked on Visual TruView, an industry leading application and
             network performance monitoring tool. After joining the team, the
@@ -191,7 +191,7 @@ export default function Resume() {
           <h2 className={styles.h2}>
             ACM President <span>2006 to 2008</span>
           </h2>
-          <p>
+          <p className={styles.p}>
             Coordinated the logistics for a code-a-thon for handicapped computer
             users and organized engineering events, lectures, and tutoring
             sessions
@@ -201,7 +201,7 @@ export default function Resume() {
           <h2 className={styles.h2}>
             Odell Technology Award <span>2012</span>
           </h2>
-          <p>
+          <p className={styles.p}>
             for demonstrating a passion for technology and having an innovative
             spirit
           </p>
@@ -211,10 +211,14 @@ export default function Resume() {
             Outstanding Student Award in CE/CS
             <span>2008</span>
           </h2>
+          <p className={styles.p}>
+            Presented to the top Computer Engineering and Computer Science
+            senior at USC
+          </p>
         </dd>
         <dd className={styles.dd}>
           <h2 className={styles.h2}>College Honors</h2>
-          <p>
+          <p className={styles.p}>
             Upsilon Phi Epsilon (Computer Science Honors Society), Tau Beta Pi
             Delta (Engineering Honors Society), Epsilon Kappa Nu (Electrical and
             Computer Engineering Honors Society), Phi Kappa Phi (Nation's

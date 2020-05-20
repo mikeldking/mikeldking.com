@@ -229,7 +229,7 @@ export default function Resume() {
         <dd className={styles.clear + " " + styles.dd}></dd>
         <dt className={styles.dt}>Hobbies</dt>
         <dd className={styles.dd}>
-          I enjoy rock climbing, snowboarding, biking, surfing woodwork, and
+          I enjoy rock climbing, snowboarding, biking, surfing, woodworking, and
           printmaking.
         </dd>
 

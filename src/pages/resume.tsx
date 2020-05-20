@@ -69,6 +69,8 @@ export default function Resume() {
             Comfortable designing things with Figma, Adobe Creative Suite, and
             Sketch
           </p>
+          <h2 className={styles.h2}>Other</h2>
+          <p className={styles.p}>Fluent in written and spoken Japanese</p>
         </dd>
 
         <dd className={styles.clear + " " + styles.dd}></dd>
@@ -203,6 +205,12 @@ export default function Resume() {
             for demonstrating a passion for technology and having an innovative
             spirit
           </p>
+        </dd>
+        <dd className={styles.dd}>
+          <h2 className={styles.h2}>
+            Outstanding Student Award in CE/CS
+            <span>2008</span>
+          </h2>
         </dd>
         <dd className={styles.dd}>
           <h2 className={styles.h2}>College Honors</h2>

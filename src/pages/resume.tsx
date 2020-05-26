@@ -27,8 +27,10 @@ export default function Resume() {
               <span className={styles.pill}>State Machines</span>
               <span className={styles.pill}>RDF</span>
               <span className={styles.pill}>Web Assembly</span>
+              <span className={styles.pill}>WebGL</span>
               <span className={styles.pill}>NGINX</span>
               <span className={styles.pill}>Authn/Authz</span>
+              <span className={styles.pill}>AWS</span>
             </p>
           </section>
           <section className="mx-6">
@@ -136,12 +138,13 @@ export default function Resume() {
                   paradigms like teams and projects with proper access control.
                 </li>
                 <li>
-                  Overhauled UI and CLI authentication to use OAuth 2.0 and JWTs
+                  Overhauled the UI and CLI's authentication to use OAuth 2.0
+                  and JWTs.
                 </li>
                 <li>Migrated all APIs to GraphQL with proper authn/authz.</li>
                 <li>
                   Converted the UI to be live-updating using GraphQL
-                  subscriptions
+                  subscriptions.
                 </li>
               </ul>
               <h2 className={styles.experienceHeader}>
@@ -151,6 +154,20 @@ export default function Resume() {
                 Worked closely alongside operations, human interface design, and
                 iOS engineers to ship new iOS features.
               </p>
+              <ul className={styles.ul}>
+                <li>
+                  Application DRI for mission critical data pipelines and
+                  editors.
+                </li>
+                <li>
+                  Helped transform indoor positioning and maps from an internal
+                  project to a tent pole feature for iOS 11.
+                </li>
+                <li>
+                  Leveraged WebGL and WASM to bring native experiences to the
+                  web.
+                </li>
+              </ul>
               <h2 className={styles.experienceHeader}>
                 Fluke Networks <span>Software Engineer - 2008 to 2015</span>
               </h2>

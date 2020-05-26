@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@page:first {
+  size: 8.5in 11in;
+  margin: 0;
+}

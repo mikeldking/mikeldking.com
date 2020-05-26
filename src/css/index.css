@@ -1,0 +1,7 @@
+body {
+  margin: 0;
+}
+@page:first {
+  size: 8.5in 11in;
+  margin: 0;
+}

@@ -1,242 +1,219 @@
 import React from "react"
 import styles from "./resume.module.css"
-import avatar from "../../content/assets/avatar.jpeg"
 
 export default function Resume() {
   return (
-    <div className={styles.pagewrap + " " + styles.container}>
-      <img src={avatar} alt="Photo of Mikyo King" className={styles.pic} />
-      <div id="contact-info">
-        <h1 className={styles.h1}>Mikel King</h1>
-
-        <p className={styles.p}>
-          Cell: <span className={styles.tel}>720-938-2269</span>
-          <br />
-          Email:{" "}
-          <a
-            className={styles.email + " " + styles.link}
-            href="mailto:mikeldking@gmail.com"
-          >
-            mikeldking@gmail.com
-          </a>
-        </p>
-      </div>
-      <div className={styles.objective}>
-        <p className={styles.p}>
-          I'm a full-stack engineer that is deeply passionate about UI/UX, the
-          web, design, data visualization, and mobile SW development. I enjoy
-          stretching my skills in various areas including fields beyond
-          engineering (ex. design, usability testing). That being said, I love
-          being an engineer and solving complex problems. There is nothing
-          better than knowing that your hard work can directly translate into
-          making a person's life easier/better/more enjoyable.
-        </p>
-      </div>
-      <div className={styles.clear}></div>
-      <dl>
-        <dd className={styles.clear + " " + styles.dd}></dd>
-        <dt className={styles.dt}>Education</dt>
-        <dd className={styles.dd}>
-          <h2 className={styles.h2}>
-            University of Southern California{" "}
-            <span>Summa Cum Laude - May 2008</span>
-          </h2>
-          <p className={styles.p}>
-            <strong>Major:</strong> Computer Engineering and Computer Science
-            <br />
-            <strong>GPA:</strong> 3.94
-          </p>
-          <h2 className={styles.h2}>
-            University of Colorado, Boulder <span>Masters - Incomplete</span>
-          </h2>
-          <p className={styles.p}>
-            <strong>Major:</strong> Human Computer Interaction
-            <br />
-            <strong>GPA:</strong> 4.0
-          </p>
-        </dd>
-
-        <dd className={styles.clear + " " + styles.dd}></dd>
-        <dt className={styles.dt}>Skills</dt>
-        <dd className={styles.dd}>
-          <h2 className={styles.h2}>Engineering</h2>
-          <p className={styles.p}>
-            Software Design, UI/UX, Javascript/Typescript, Any flavor of CSS,
-            HTML, SVG
-          </p>
-          <h2 className={styles.h2}>Computer skills</h2>
-          <p className={styles.p}>
-            Comfortable designing things with Figma, Adobe Creative Suite, and
-            Sketch
-          </p>
-          <h2 className={styles.h2}>Other</h2>
-          <p className={styles.p}>Fluent in written and spoken Japanese</p>
-        </dd>
-
-        <dd className={styles.clear + " " + styles.dd}></dd>
-        <dt className={styles.dt}>Experience</dt>
-        <dd className={styles.dd}>
-          <h2 className={styles.h2}>
-            Engine ML <span>Software Engineer - 2019 to Now</span>
-          </h2>
-          <p>
-            Creating next-generation distributed deep learning infrastructure
-            and services to support ML engineers. Engine ML empowers any ML team
-            to be able to rapidly build state of the art models by leveraging
-            GPU-enabled computation.
-          </p>
-          <p>
-            <strong>Technologies:</strong> Kubernetes, Terraform, GraphQL,
-            PostGres, Elasticsearch, Prometheus, Nginx, Git, Redis, State
-            Machines
-            <br />
-            <strong>Languages</strong> Typescript, Haskell, Kotlin, some Python
-            <br />
-            <strong>Libraries</strong> React, Jest, Apollo, Koa, Lerna,
-            Puppeteer
-          </p>
-          <ul className={styles.ul}>
-            <li>
-              Built Engine ML's UI and application backend from the ground up
-              using modern best practices. The sole engineer designing and
-              working on the UI and its corresponding backends.
-            </li>
-            <li>
-              Re-architected the application to support collaborative paradigms
-              like teams and projects with proper access control. Added support
-              for user and team slugs to enable intuitive URLs and navigation.
-            </li>
-            <li>
-              Overhauled Engine ML's authentication and authorization.
-              Refactored the application to use OAuth 2.0 and secured Engine
-              ML's CLI using JWTs with corresponding permissions.
-            </li>
-            <li>
-              Migrated all of Engine ML's APIs to GraphQL with proper
-              authentication and authorization. Migrated the UI from using REST
-              to GraphQL.
-            </li>
-            <li>
-              Converted the UI to be fully live-updating with the careful use of
-              GraphQL subscriptions and polling
-            </li>
-            <li>
-              Crafted various custom components to support various use-cases.
-              These included a live log viewer with ANSI character highlighting,
-              a file browser, top-level application search with hot-key support,
-              code snippets with syntax highlighting, and many more.
-            </li>
-          </ul>
-
-          <h2 className={styles.h2}>
-            Apple Inc. <span>Sr. Software Engineer - 2015 to 2019</span>
-          </h2>
-          <p className={styles.p}>
-            Full-stack web application developer using React, Redux/Mobx,
-            Express/Koa, Kafka, THREE.js, Web Assembly, WebGL/GLSL,
-            Elasticsearch, and Docker. Worked closely alongside operations,
-            human interface design, and iOS engineers to ship and maintain iOS
-            features.
-          </p>
-          <p className={styles.p}>
-            <strong>Languages</strong> Javascript with Flow
-          </p>
-          <h2 className={styles.h2}>
-            Fluke Networks <span>Software Engineer - 2008 to 2015</span>
-          </h2>
-          <p className={styles.p}>
-            UI engineer in a small but highly versatile engineering team that
-            worked on Visual TruView, an industry leading application and
-            network performance monitoring tool. After joining the team, the
-            product was transformed from being a struggling business venture for
-            Fluke Networks into a highly successful, award-winning product that
-            was considered a cornerstone of Fluke Networks’ success.
-          </p>
-          <ul className={styles.ul}>
-            <li>
-              Designed and programmed various features and user experience
-              improvements that resulted in an industry-leading UI according to
-              Gartner Research (2 years in a row).
-            </li>
-            <li>
-              Created the first ever AANPM mobile app. Was the sole engineer
-              responsible for this project: designed, architected, and
-              implemented the application from the ground up. I created a custom
-              communication protocol that allows TruView customers to securely
-              access their private data center data from outside of their
-              company's firewall. Technologies used include: Node, PubNub,
-              Sencha Touch, D3, CSS animations, Parse.js, Cordova, and Crypto
-              JS.
-            </li>
-            <li>
-              Pioneered the use of user-centered design principles and practices
-              within the company.
-            </li>
-            <li>
-              Fulfilled a variety of roles that include UI programmer, designer,
-              software architect, NodeJS developer, recruiter, UX consultant,
-              and mobile technology consultant.
-            </li>
-          </ul>
-          <h2 className={styles.h2}>
-            Cisco Systems <span>Software College Intern - Summer 2007</span>
-          </h2>
-          <h2 className={styles.h2}>
-            Unavco Inc. <span>System Administrator - Summer 2006</span>
-          </h2>
-        </dd>
-        <dd className={styles.clear + " " + styles.dd}></dd>
-        <dt className={styles.dt}>Leadership</dt>
-        <dd className={styles.dd}>
-          <h2 className={styles.h2}>
-            ACM President <span>2006 to 2008</span>
-          </h2>
-          <p className={styles.p}>
-            Coordinated the logistics for a code-a-thon for handicapped computer
-            users and organized engineering events, lectures, and tutoring
-            sessions
-          </p>
-        </dd>
-        <dd className={styles.dd}>
-          <h2 className={styles.h2}>
-            Odell Technology Award <span>2012</span>
-          </h2>
-          <p className={styles.p}>
-            for demonstrating a passion for technology and having an innovative
-            spirit
-          </p>
-        </dd>
-        <dd className={styles.dd}>
-          <h2 className={styles.h2}>
-            Outstanding Student Award in CE/CS
-            <span>2008</span>
-          </h2>
-          <p className={styles.p}>
-            Presented to the top Computer Engineering and Computer Science
-            senior at USC
-          </p>
-        </dd>
-        <dd className={styles.dd}>
-          <h2 className={styles.h2}>College Honors</h2>
-          <p className={styles.p}>
-            Upsilon Phi Epsilon (Computer Science Honors Society), Tau Beta Pi
-            Delta (Engineering Honors Society), Epsilon Kappa Nu (Electrical and
-            Computer Engineering Honors Society), Phi Kappa Phi (Nation's
-            oldest, largest, and most selective all-discipline honor society),
-            Alpha Lambda Delta (National Academic Honors Society for freshman)
-          </p>
-        </dd>
-        <dd className={styles.clear + " " + styles.dd}></dd>
-        <dt className={styles.dt}>Hobbies</dt>
-        <dd className={styles.dd}>
-          I enjoy rock climbing, snowboarding, biking, surfing, woodworking, and
-          printmaking.
-        </dd>
-
-        <dd className={styles.clear + " " + styles.dd}></dd>
-        <dd className={styles.clear}></dd>
-      </dl>
-      <div className={styles.clear}></div>
+    <div className="tailwind">
+      <article className={styles.page}>
+        <section className={styles.leftSide}>
+          <header className={styles.header}>
+            <h1>Mikel King</h1>
+            <h2>Software Engineer</h2>
+          </header>
+          <section className="mx-6 mb-6">
+            <header className={styles.sectionHeader}>Technologies</header>
+            <p>
+              <span className={styles.pill}>React</span>
+              <span className={styles.pill}>Redux/Mobx</span>
+              <span className={styles.pill}>GraphQL</span>
+              <span className={styles.pill}>REST</span>
+              <span className={styles.pill}>Koa/Express</span>
+              <span className={styles.pill}>Docker/K8s</span>
+              <span className={styles.pill}>Elasticsearch</span>
+              <span className={styles.pill}>Kafka</span>
+              <span className={styles.pill}>Vault</span>
+              <span className={styles.pill}>Terraform</span>
+              <span className={styles.pill}>Git</span>
+              <span className={styles.pill}>State Machines</span>
+              <span className={styles.pill}>RDF</span>
+              <span className={styles.pill}>Web Assembly</span>
+              <span className={styles.pill}>WebGL</span>
+              <span className={styles.pill}>NGINX</span>
+              <span className={styles.pill}>Authn/Authz</span>
+              <span className={styles.pill}>AWS</span>
+            </p>
+          </section>
+          <section className="mx-6">
+            <header className={styles.sectionHeader}>Skills</header>
+            <ul className={styles.skillList + " mb-6"}>
+              <li key="sw">
+                <div className={styles.skill}>Software Design</div>
+                <div className={styles.barWrap}>
+                  <span className={styles.bar} style={{ width: "87%" }}></span>
+                </div>
+              </li>
+              <li key="ui">
+                <div className={styles.skill}>UI/UX Design</div>
+                <div className={styles.barWrap}>
+                  <span className={styles.bar} style={{ width: "93%" }}></span>
+                </div>
+              </li>
+              <li key="data-viz">
+                <div className={styles.skill}>Data Visualization</div>
+                <div className={styles.barWrap}>
+                  <span className={styles.bar} style={{ width: "80%" }}></span>
+                </div>
+              </li>
+              <li key="ts">
+                <div className={styles.skill}>Typescript/Javascript</div>
+                <div className={styles.barWrap}>
+                  <span className={styles.bar} style={{ width: "93%" }}></span>
+                </div>
+              </li>
+              <li key="html">
+                <div className={styles.skill}>HTML/CSS/SVG</div>
+                <div className={styles.barWrap}>
+                  <span className={styles.bar} style={{ width: "85%" }}></span>
+                </div>
+              </li>
+              <li key="design">
+                <div className={styles.skill}>Figma/Sketch/Adobe CS</div>
+                <div className={styles.barWrap}>
+                  <span className={styles.bar} style={{ width: "70%" }}></span>
+                </div>
+              </li>
+              <li key="japanese">
+                <div className={styles.skill}>Written and Spoken Japanese</div>
+                <div className={styles.barWrap}>
+                  <span className={styles.bar} style={{ width: "85%" }}></span>
+                </div>
+              </li>
+            </ul>
+            <div className={styles.contact}>
+              <h3>Contact</h3>
+              <p>
+                <span className="block">720-938-2269</span>
+                <a href="mailto:mikeldking@gmail.com">mikeldking@gmail.com</a>
+              </p>
+            </div>
+          </section>
+        </section>
+        <section className={styles.rightSide}>
+          <dl>
+            <dt className={styles.dt}>About Me</dt>
+            <dd className={styles.aboutMe}>
+              I'm a full-stack engineer that is deeply passionate about UI/UX,
+              the web, design, data visualization, and mobile SW development.
+            </dd>
+            <dt className={styles.dt}>Education</dt>
+            <dd className={styles.dd}>
+              <h3>
+                University of Southern California
+                <span>Summa Cum Laude - May 2008</span>
+              </h3>
+              <p className="divide-x divide-gray-500 text-sm mb-2 mt-1">
+                <span className="pr-2">
+                  Computer Engineering and Computer Science
+                </span>
+                <span className="pl-2">3.94</span>
+              </p>
+              <h3>
+                University of Colorado, Boulder
+                <span>Masters - Incomplete</span>
+              </h3>
+              <p className="divide-x divide-gray-500 text-sm mt-1 mb-6">
+                <span className="pr-2">Human Computer Interaction</span>
+                <span className="pl-2">4.0</span>
+              </p>
+            </dd>
+            <dt className={styles.dt}>Experience</dt>
+            <dd className={styles.dd}>
+              <h2 className={styles.experienceHeader}>
+                Engine ML <span>Software Engineer - 2019 to Now</span>
+              </h2>
+              <p className={styles.experienceDescription}>
+                Creating next-generation distributed deep learning
+                infrastructure and services. Engine empowers any ML team to be
+                able to rapidly build state of the art models by leveraging
+                GPU-enabled computation.
+              </p>
+              <ul className={styles.ul}>
+                <li>
+                  Built Engine's UI and API backend from the ground up. Sole
+                  engineer designing and programming the UI and its
+                  corresponding backends.
+                </li>
+                <li>
+                  Re-architected the application to support collaborative
+                  paradigms like teams and projects with proper access control.
+                </li>
+                <li>
+                  Overhauled the UI and CLI's authentication to use OAuth 2.0
+                  and JWTs.
+                </li>
+                <li>Migrated all APIs to GraphQL with proper authn/authz.</li>
+                <li>
+                  Converted the UI to be live-updating using GraphQL
+                  subscriptions.
+                </li>
+              </ul>
+              <h2 className={styles.experienceHeader}>
+                Apple Inc. <span>Sr. Software Engineer - 2015 to 2019</span>
+              </h2>
+              <p className={styles.experienceDescription}>
+                Worked closely alongside operations, human interface design, and
+                iOS engineers to ship new iOS features.
+              </p>
+              <ul className={styles.ul}>
+                <li>
+                  Application DRI for mission critical data pipelines and
+                  editors.
+                </li>
+                <li>
+                  Helped transform indoor positioning and maps from an internal
+                  project to a tent pole feature for iOS 11.
+                </li>
+                <li>
+                  Leveraged WebGL and WASM to bring native experiences to the
+                  web.
+                </li>
+              </ul>
+              <h2 className={styles.experienceHeader}>
+                Fluke Networks <span>Software Engineer - 2008 to 2015</span>
+              </h2>
+              <p className={styles.experienceDescription}>
+                Helped transform FNet's application and network monitoring
+                business into a highly successful, award-winning product that
+                was considered a cornerstone of the company's success.
+              </p>
+              <ul className={styles.ul}>
+                <li>
+                  Created the first ever AANPM mobile app and a custom
+                  communication protocol that allows users to securely access
+                  their private data center metrics from outside of their
+                  company's firewall.
+                </li>
+                <li>
+                  Pioneered the use of user-centered design within the company.
+                </li>
+              </ul>
+              <h2 className={styles.experienceHeader}>
+                Cisco Systems <span>Software College Intern - Summer 2007</span>
+              </h2>
+              <h2 className={styles.experienceHeader + " mb-6"}>
+                Unavco Inc. <span>System Administrator - Summer 2006</span>
+              </h2>
+            </dd>
+            <dt className={styles.dt}>Leadership</dt>
+            <dd className={styles.dd}>
+              <h2 className={styles.leadershipHeader}>
+                Odell Technology Award <span>2012</span>
+              </h2>
+            </dd>
+            <dd className={styles.dd}>
+              <h2 className={styles.leadershipHeader}>
+                ACM President <span>2006 to 2008</span>
+              </h2>
+            </dd>
+            <dd className={styles.dd}>
+              <h2 className={styles.leadershipHeader}>
+                Outstanding Student Award in CE/CS
+                <span>2008</span>
+              </h2>
+            </dd>
+          </dl>
+        </section>
+      </article>
     </div>
   )
 }

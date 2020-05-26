@@ -1,103 +1,137 @@
-.container {
-  font: 16px Helvetica, Sans-Serif;
-  line-height: 24px;
+.page {
+  margin: auto;
+  margin-top: 24px;
+  margin-bottom: 24px;
+  display: grid;
+  grid-template-columns: 40px 200px auto 40px;
+  grid-template-rows: 40px auto 40px;
+  width: 8.5in;
+  height: 11in;
+  box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.4);
+  overflow: hidden;
+  @apply font-sans;
+
+  .leftSide {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 4;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    @apply text-gray-300 bg-gray-900;
+  }
+
+  .rightSide {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    margin-left: 40px;
+  }
+
+  .rightSide dd {
+    margin-inline-start: 0;
+  }
+
+  .header {
+    position: absolute;
+    left: -35px;
+    top: 125px;
+    transform: rotate(-90deg);
+    transform-origin: right right;
+    text-align: right;
+    width: max-content;
+  }
+
+  .header h1 {
+    @apply text-5xl text-white tracking-widest leading-tight;
+  }
+
+  .header h2 {
+    @apply text-gray-500 font-light text-3xl tracking-widest;
+  }
+
+  .dd h3 {
+    @apply font-semibold;
+  }
+  .dd h3 span {
+    @apply text-gray-700 float-right text-sm font-light;
+  }
+
+  .contact {
+    @apply text-gray-300 mx-auto mb-10;
+  }
+
+  .aboutMe,
+  .contact > p {
+    @apply text-sm leading-tight mb-6;
+  }
+
+  .p {
+    @apply text-sm leading-tight mb-2;
+  }
+
+  .contact h3,
+  .sectionHeader,
+  .dt {
+    @apply text-xl font-bold mb-2 uppercase tracking-wide;
+  }
+
+  .experienceHeader {
+    @apply font-semibold mt-1;
+  }
+
+  .experienceHeader:not(:first-of-type) {
+    @apply mt-4;
+  }
+
+  .leadershipHeader {
+    @apply text-sm mt-1;
+  }
+
+  .experienceHeader span,
+  .leadershipHeader span {
+    @apply text-gray-700 float-right text-sm font-light;
+  }
+
+  .experienceDescription {
+    @apply text-sm leading-tight mt-1 mb-2;
+  }
+
+  .ul {
+    @apply text-sm leading-tight list-disc list-outside mb-2 ml-6;
+  }
+  .ul li {
+    @apply mb-1;
+  }
+
+  .barWrap {
+    @apply w-full h-3 bg-gray-800 flex;
+  }
+
+  .bar {
+    @apply bg-teal-700 inline-block bg-gray-500 h-3;
+  }
+
+  .skill {
+    @apply font-light text-sm text-gray-400 mb-0;
+  }
+
+  .skillList li {
+    @apply mb-2;
+  }
+
+  .pill {
+    @apply inline-block text-xs px-2 py-0 rounded-full bg-teal-500 text-gray-800 mr-1;
+  }
 }
 
-.clear {
-  clear: both;
-}
-
-.pagewrap {
-  width: 800px;
-  margin: 40px auto 60px;
-}
-
-.pic {
-  float: right;
-  margin: 15px 15px 0 0;
-  width: 220px;
-  border: 10px solid white;
-  box-shadow: 1px 5px 5px rgba(0, 0, 0, 0.2);
-  transform: rotateY(-5deg) rotateZ(-7deg);
-}
-
-.h1 {
-  margin: 0 0 16px 0;
-  padding: 0 0 16px 0;
-  font-size: 42px;
-  font-weight: bold;
-  letter-spacing: -2px;
-  border-bottom: 1px solid #999;
-}
-.h2 {
-  font-size: 20px;
-  margin: 0 0 6px 0;
-  position: relative;
-}
-.h2 span {
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  font-style: italic;
-  font-family: Georgia, Serif;
-  font-size: 16px;
-  color: #999;
-  font-weight: normal;
-}
-.p {
-  margin: 0 0 16px 0;
-}
-
-.link {
-  color: #999;
-  text-decoration: none;
-  border-bottom: 1px dotted #999;
-}
-.link:hover {
-  border-bottom-style: solid;
-  color: black;
-}
-
-.ul {
-  margin: 16px 0 32px 0px;
-  padding-inline-start: 25px;
-}
-
-.ul > li:not(:last-of-type) {
-  margin-bottom: 10px;
-}
-
-.objective {
-  width: 500px;
-  float: left;
-}
-
-.objective p {
-  font-family: Georgia, Serif;
-  font-style: italic;
-  color: #888;
-}
-
-.dt {
-  font-style: italic;
-  font-weight: bold;
-  font-size: 18px;
-  text-align: right;
-  padding: 0 26px 0 0;
-  width: 120px;
-  float: left;
-  height: 100px;
-  /* border-right: 1px solid #999; */
-}
-.dd {
-  margin: 0;
-  padding: 0;
-  width: 630px;
-  float: right;
-}
-
-.dd.clear {
-  float: none;
-  margin: 0;
-  height: 15px;
+@media print {
+  .page {
+    margin-top: 0;
+    margin-bottom: 0;
+    box-shadow: none;
+  }
 }

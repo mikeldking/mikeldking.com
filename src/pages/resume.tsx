@@ -1,10 +1,9 @@
 import React from "react"
-import "../css/tailwind.css"
 import styles from "./resume.module.css"
 
 export default function Resume() {
   return (
-    <div className={styles.container + " tailwind"}>
+    <div className="tailwind">
       <article className={styles.page}>
         <section className={styles.leftSide}>
           <header className={styles.header}>

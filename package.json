@@ -24,6 +24,7 @@
   },
   "devDependencies": {
     "gatsby-plugin-postcss": "^2.3.2",
+    "postcss-nested": "^4.2.1",
     "prettier": "^1.19.1",
     "tailwindcss": "^1.4.6"
   },

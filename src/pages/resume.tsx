@@ -1,9 +1,10 @@
 import React from "react"
+import "../css/tailwind.css"
 import styles from "./resume.module.css"
 
 export default function Resume() {
   return (
-    <div className={styles.container}>
+    <div className={styles.container + " tailwind"}>
       <article className={styles.page}>
         <section className={styles.leftSide}>
           <header className={styles.header}>
@@ -80,7 +81,7 @@ export default function Resume() {
             <div className={styles.contact}>
               <h3>Contact</h3>
               <p>
-                <div>720-938-2269</div>
+                <span className="block">720-938-2269</span>
                 <a href="mailto:mikeldking@gmail.com">mikeldking@gmail.com</a>
               </p>
             </div>

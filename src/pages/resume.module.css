@@ -79,9 +79,16 @@
     @apply text-xl font-bold mb-2 uppercase tracking-wide;
   }
 
-  .experienceHeader,
+  .experienceHeader {
+    @apply font-semibold mt-1;
+  }
+
+  .experienceHeader:not(:first-of-type) {
+    @apply mt-3;
+  }
+
   .leadershipHeader {
-    @apply font-semibold;
+    @apply text-sm mt-1;
   }
 
   .experienceHeader span,
@@ -94,7 +101,10 @@
   }
 
   .ul {
-    @apply text-sm leading-tight list-disc list-outside mb-2 ml-4;
+    @apply text-sm leading-tight list-disc list-outside mb-2 ml-6;
+  }
+  .ul li {
+    @apply mb-1;
   }
 
   .barWrap {
@@ -106,7 +116,7 @@
   }
 
   .skill {
-    @apply font-light text-sm text-gray-500;
+    @apply font-light text-sm text-gray-500 mb-0;
   }
 
   .skillList li {

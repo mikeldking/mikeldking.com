@@ -99,7 +99,7 @@ export default function Resume() {
                 University of Southern California
                 <span>Summa Cum Laude - May 2008</span>
               </h3>
-              <p className="divide-x divide-gray-500 text-sm mb-2">
+              <p className="divide-x divide-gray-500 text-sm mb-2 mt-1">
                 <span className="pr-2">
                   Computer Engineering and Computer Science
                 </span>
@@ -109,7 +109,7 @@ export default function Resume() {
                 University of Colorado, Boulder
                 <span>Masters - Incomplete</span>
               </h3>
-              <p className="divide-x divide-gray-500 text-sm mb-6">
+              <p className="divide-x divide-gray-500 text-sm mt-1 mb-6">
                 <span className="pr-2">Human Computer Interaction</span>
                 <span className="pl-2">4.0</span>
               </p>
@@ -136,46 +136,39 @@ export default function Resume() {
                   paradigms like teams and projects with proper access control.
                 </li>
                 <li>
-                  Overhauled authentication and authorization to use OAuth 2.0
-                  and JWTs
+                  Overhauled UI and CLI authentication to use OAuth 2.0 and JWTs
                 </li>
-                <li>
-                  Migrated all APIs to GraphQL with proper authentication and
-                  authorization.
-                </li>
+                <li>Migrated all APIs to GraphQL with proper authn/authz.</li>
                 <li>
                   Converted the UI to be live-updating using GraphQL
                   subscriptions
                 </li>
               </ul>
-
               <h2 className={styles.experienceHeader}>
                 Apple Inc. <span>Sr. Software Engineer - 2015 to 2019</span>
               </h2>
               <p className={styles.experienceDescription}>
-                Full-stack developer using React, Redux/Mobx, Express/Koa,
-                Kafka, THREE.js, Web Assembly, WebGL/GLSL, Elasticsearch, and
-                Docker. Worked closely alongside operations, human interface
-                design, and iOS engineers to ship and maintain iOS features.
+                Worked closely alongside operations, human interface design, and
+                iOS engineers to ship new iOS features.
               </p>
-
               <h2 className={styles.experienceHeader}>
                 Fluke Networks <span>Software Engineer - 2008 to 2015</span>
               </h2>
               <p className={styles.experienceDescription}>
-                Helped transform Fluke Networks' application and network
-                monitoring business into a highly successful, award-winning
-                product that was considered a cornerstone of Fluke Networks’
-                success.
+                Helped transform FNet's application and network monitoring
+                business into a highly successful, award-winning product that
+                was considered a cornerstone of the company's success.
               </p>
               <ul className={styles.ul}>
                 <li>
                   Created the first ever AANPM mobile app and a custom
-                  communication protocol that allows TruView customers to
-                  securely access their private data center data from outside of
-                  their company's firewall.
+                  communication protocol that allows users to securely access
+                  their private data center metrics from outside of their
+                  company's firewall.
                 </li>
-                <li>Pioneered the use of UCD within the company.</li>
+                <li>
+                  Pioneered the use of user-centered design within the company.
+                </li>
               </ul>
               <h2 className={styles.experienceHeader}>
                 Cisco Systems <span>Software College Intern - Summer 2007</span>
@@ -184,16 +177,15 @@ export default function Resume() {
                 Unavco Inc. <span>System Administrator - Summer 2006</span>
               </h2>
             </dd>
-
             <dt className={styles.dt}>Leadership</dt>
             <dd className={styles.dd}>
               <h2 className={styles.leadershipHeader}>
-                ACM President <span>2006 to 2008</span>
+                Odell Technology Award <span>2012</span>
               </h2>
             </dd>
             <dd className={styles.dd}>
               <h2 className={styles.leadershipHeader}>
-                Odell Technology Award <span>2012</span>
+                ACM President <span>2006 to 2008</span>
               </h2>
             </dd>
             <dd className={styles.dd}>

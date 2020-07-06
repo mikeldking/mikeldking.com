@@ -16,6 +16,7 @@
   "dependencies": {
     "gatsby": "^2.20.12",
     "gatsby-cli": "^2.12.1",
+    "gatsby-plugin-feed": "^2.5.10",
     "gatsby-plugin-typescript": "^2.3.1",
     "gatsby-theme-blog": "^1.5.1",
     "gatsby-theme-blog-core": "^1.4.0",

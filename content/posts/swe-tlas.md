@@ -13,9 +13,11 @@ excerpt: All the thee letter acronyms you need to know these days to be an engin
 - **C**
   - CRM - Customer relationship management
   - CMS - Content management system
+  - CNN - Convolutional neural network
 - **D**
   - DNS - Domain name service
   - DRI - Directly responsible engineer
+  - DRY - Don't repeat yourself
 - **E**
   - EFS - Elastic File System (AWS)
   - EKS - Elastic Kubernetes Service
@@ -70,6 +72,7 @@ excerpt: All the thee letter acronyms you need to know these days to be an engin
   - VPN - Virtual private network
 - **W**
   - WAN - Wide area network
+  - WET - Write everything twice. A cheeky abbreviation to mean the opposite of DRY
 - **X**
   - XML - Extensible Markup Language
   - XHR - XMLHttpRequest (an http request for data)
